@@ -257,66 +257,6 @@ body::before {
     animation: pulse 2s infinite;
 }
 
-.feedback-section {
-    width: 100%;
-    max-width: 600px;
-    text-align: center;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    margin-bottom: 20px;
-    position: relative;
-    overflow: hidden;
-}
-
-.feedback-title {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
-    font-weight: 300;
-}
-
-.feedback-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.feedback-btn {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    font-size: 2.5rem;
-    transition: all 0.3s ease;
-    position: relative;
-    padding: 10px 20px;
-    border-radius: 10px;
-}
-
-.feedback-btn:hover {
-    transform: scale(1.2);
-}
-
-.like-btn {
-    color: #4CAF50;
-}
-
-.dislike-btn {
-    color: #f44336;
-}
-
-.feedback-count {
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.feedback-btn.active {
-    background: rgba(255, 255, 255, 0.1);
-}
-
 @keyframes pulse {
     0% { transform: scale(1); }
     50% { transform: scale(1.2); }
@@ -366,14 +306,6 @@ body::before {
         font-size: 1rem;
         padding: 0 20px;
     }
-    
-    .feedback-buttons {
-        gap: 15px;
-    }
-    
-    .feedback-btn {
-        font-size: 2rem;
-    }
 }
 
 .loader {
@@ -407,4 +339,4 @@ body::before {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-}
+    }
